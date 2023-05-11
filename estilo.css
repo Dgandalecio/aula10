@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+body{background-color: hotpink;}
+
+.menu {list-style: none;
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+			justify-content: left;
+			background-color: purple;
+			padding: 10px;
+			
+
+
+			font-size:20px;
+				
+				}
+
+
+.menu li{margin: 0px 10px;} 
+
+
+		.menu li a{
+			display: block;
+			
+			text-decoration: none;
+			color: purple;
+			font-weight: bold;
+			transition: all 0.3s ease;
+		}
+
+		.menu li a:hover{
+			background-color: gray;
+			color: lightblue;
+		}
+
+.submenu {
+
+			display: none;
+			position: absolute;
+			background-color: white;
+			padding: 10px;
+			box-shadow: 0 2px 5px gray;
+		}
+
+
+
+		.menu li:hover .submenu {
+			display: block;}
+
+
+h1{font-family: arial;
+	font-size: 30px;
+}
+
+Img{width: 10em;
+height: 10em;}
+
+p{font-family: timesnewroman;
+font-size: 20px;
+}
